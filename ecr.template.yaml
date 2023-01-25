@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: ECR repositories for <<PROJECT NAME>>.
+
+
+Resources:
+  # ECR Repositories
+  ImportExportECRDev:
+    Type: AWS::ECR::Repository
+    Properties:
+      RepositoryName: import-export-dev
